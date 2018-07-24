@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.landing {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 12%;
+    height: 77vh;
+
+}
+
+span {
+    color: #cccc99;
+}
+
+.landing h1 {
+    font-size: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.landing h2 {
+    margin-top: 0px;
+}
+
+/* ABOUT */
+
+.about {
+    background-color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    padding: 140px 0;
+    height: 77vh;
+}
+
+.about h2 {
+    font-size: 7vh;
+    margin-bottom: 40px;
+    margin-top: 5%;
+}
+
+.about p {
+    font-size: 2vh;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    width: 62%;
+    line-height: 40px;
+    margin-bottom: 5%;
+   
+}
+
+/* MENU */
+
+.menu {
+    background-color: #cccc99;
+    /* text-align: center; */
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    padding: 140px 0;
+    height: 77vh;
+}
+
+.menu h2 {
+    font-size: 7vh;
+    margin-bottom: 40px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.menu p {
+    font-size: 1,7vh;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    width: 62%;
+    line-height: 40px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.menu ol li { 
+  display: inline;
+  padding-right: 20px;
+  
+}
+
