@@ -38,47 +38,6 @@ span {
     
 }
 
-/* .about-text h2 {
-    font-size: 2vh;
-    margin-bottom: 10px;
-    margin-left: 10%;
-}
-
-.about-text p {
-    font-size: 1.3vh;
-    font-family: 'Nunito', sans-serif;
-    width: 25%;
-    line-height: 15px;
-    margin-bottom: 5%;
-    margin-left: 10%;
-}
-
-.about-text2 h2 {
-    font-size: 2vh;
-    margin-bottom: 10px;
-    
-}
-
-.about-text2 p {
-    font-size: 1.3vh;
-    font-family: 'Nunito', sans-serif;
-    width: 25%;
-    line-height: 15px;
-    margin-bottom: 5%;
-   
-}  */
-
-/* ul {
-    list-style: none;
-    -moz-column-count: 2;
-    -moz-column-gap: 15px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 15px;
-    column-count: 2;
-    column-gap: 15px;
-    width: 90%;
-} */
-
 .grid2x2 {
     min-height: 100%;
     display: flex;
@@ -147,6 +106,28 @@ span {
    
  }
 
+ /* CONTACT */
+
+ .contact-page {
+    background-color: #cccc99;
+    letter-spacing: 2px;
+    padding: 140px 0;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+form {
+    float: right;
+    margin-right: 14%;
+}
+
+img {
+    margin-left: 8%;
+}
+
+input {
+    width: 120%;
+}
 
 
 
