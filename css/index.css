@@ -31,7 +31,7 @@ span {
 
 .about {
     background-color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 2px;
     padding: 140px 0;
     height: 100vh;
@@ -39,12 +39,14 @@ span {
 }
 
 .grid2x2 {
-    min-height: 100%;
+    min-height: 90%;
+    max-width: 90%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.3vh;
+    font-size: 1.4vh;
    
   }
   .grid2x2 > div {
@@ -61,11 +63,12 @@ span {
   
 .box { 
       margin: 15px; 
+    
 }
 
 .box1 p {
     width: 55%;
-    line-height: 15px;
+    line-height: 25x;
  }
 
  .box1 img {
@@ -114,20 +117,51 @@ span {
     padding: 140px 0;
     height: 100vh;
     font-family: 'Nunito', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+   
 }
 
 form {
     float: right;
     margin-right: 14%;
+    margin-top: 12%;
 }
 
-img {
-    margin-left: 8%;
+.ds-illustration {
+    margin-left: 7%;
+    margin-top: 12%;
 }
 
 input {
     width: 120%;
+    margin: 8px 0;
 }
 
+input[name=name], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[name=message], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+input[type=submit] {
+    width: 60%;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
