@@ -10,7 +10,6 @@ body {
     letter-spacing: 4px;
     margin-top: 12%;
     height: 100vh;
-
 }
 
 span {
@@ -76,38 +75,7 @@ span {
     line-height: 15px;
  }
 
- .box2 p {
-    width: 55%;
-    line-height: 15px;
-    margin-top: 35px;
- }
-
- .box2 img {
-    padding: 15px;
-    line-height: 15px;
-    margin-top: 25px;
- }
-
- .box3 p {
-    width: 55%;
-    line-height: 15px;
- }
-
- .box3 img {
-    padding: 15px;
-    line-height: 15px;
- }
-  
-.box4 p {
-    width: 55%;
-    line-height: 15px;
- }
-
- .box4 img {
-    padding: 15px;
-    line-height: 15px;
-   
- }
+ 
 
  /* CONTACT */
 
@@ -162,6 +130,292 @@ input[type=submit] {
     background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .landing {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        letter-spacing: 4px;
+        height: 100vh;
+    }  
+
+    .daslogo {
+        padding-top: 30%;
+    }
+
+    /* ABOUT */
+
+.about {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    padding: 140px 0;
+    height: 134vh;
+    
+}
+
+.grid2x2 {
+    min-height: 90%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4vh;
+   
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(90% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+.box { 
+      margin: 15px; 
+    
+}
+
+.box1 p {
+    width: 65%;
+    line-height: 25x;
+ }
+
+ .box1 img {
+    padding: 35px;
+    line-height: 15px;
+ }
+
+ .box2 p {
+    width: 55%;
+    line-height: 15px;
+    margin-top: 35px;
+ }
+
+ .box2 img {
+    padding: 15px;
+    line-height: 15px;
+    margin-top: 25px;
+ }
+
+ .box3 p {
+    width: 55%;
+    line-height: 15px;
+ }
+
+ .box3 img {
+    padding: 15px;
+    line-height: 15px;
+ }
+  
+.box4 p {
+    width: 55%;
+    line-height: 15px;
+ }
+
+ .box4 img {
+    padding: 15px;
+    line-height: 15px;
+}
+
+/* CONTACT */
+
+.contact-page {
+    background-color: #cccc99;
+    letter-spacing: 2px;
+    height: 70vh;
+    font-family: 'Nunito', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+form {
+    margin: auto;
+    float: none;
+    padding: 0 80px;
+}
+
+form h2 {
+    font-size: 2vh;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0;
+}
+
+input[name=name], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[name=message], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+input[type=submit] {
+    width: 40%;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5vh;
+}
+
+
+ 
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .landing {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        letter-spacing: 4px;
+        height: 100vh;
+    }  
+
+    .landing img {
+        height: 140px;;
+    }
+
+    .daslogo h1 {
+        padding-top: 3%;
+        font-size: 5vh;
+    }
+
+    .daslogo h2 {
+        font-size: 3vh;
+    }
+
+    /* ABOUT */
+
+.about {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    padding: 60px 0;
+    height: 149vh;
+}
+
+.about img {
+    height: 70px;
+}
+
+.grid2x2 {
+    min-height: 90%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4vh;
+   
+  }
+
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(10% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+.box { 
+      margin: 7px; 
+}
+
+.box1 p {
+    width: 130%;
+    line-height: 25x;
+    
+ }
+
+ .box1 img {
+    padding: 15px;
+    line-height: 15px;
+ }
+
+ /* CONTACT */
+
+.contact-page {
+    background-color: #cccc99;
+    letter-spacing: 2px;
+    height: 140vh;
+    font-family: 'Nunito', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 100px;
+}
+
+form {
+    margin: auto;
+    float: none;
+    padding: 0 50px;
+}
+
+form h2 {
+    font-size: 4vh;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0;
+}
+
+input[name=name], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[name=message], select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+input[type=submit] {
+    width: 40%;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5vh;
+}
 }
 
 
